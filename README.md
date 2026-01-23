@@ -19,40 +19,10 @@ This project automates functional and end-to-end test cases for the ToolsQA Demo
 - Cross-browser testing
 
 ## Project Structure
-toolsqa_selenium/
-│
-├── src/
-│   ├── main/java/
-│   │   └── com/qa/toolsqa/
-│   │       ├── pages/              # Page Object classes
-│   │       │   ├── BasePage.java
-│   │       │   ├──LoginPage.java
-│   │       │   ├── RegistrationPage.java
-│   │       │   └── NavigationPage.java
-│   │       │
-│   │       └── utils/              # Utility classes (optional)
-│   │           └── ConfigReader.java
-│   │
-│   └── test/java/
-│       └── com/qa/toolsqa/
-│           ├── tests/              # Test classes
-│           │   ├── BaseTest.java
-│           │   ├── LoginTest.java
-│           │   ├── RegistrationTest.java
-│           │   ├── NavigationTest.java
-│           │   └── AccountDeletionTest.java
-│           │
-│           └── testdata/           # Test data classes
-│               ├── LoginTestData.java
-│               └── RegistrationTestData.java
-│               ├── DeleteTestData.java
-│
-├── test-output/                    # TestNG reports (auto-generated)
-├── target/                         # Compiled classes (auto-generated)
-├── pom.xml                         # Maven configuration
-├── testng.xml                      # TestNG suite configuration
-├── .gitignore                      # Git ignore file
-└── README.md                       # This file
+- src/test/java → Test cases & Page Objects
+- src/test/resources → Test data & config
+- testng.xml → Test suite configuration
+- pom.xml → Maven dependencies
 
 ## How to Run Tests
 
