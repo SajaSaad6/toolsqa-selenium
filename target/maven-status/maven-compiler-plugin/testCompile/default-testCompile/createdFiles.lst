@@ -1,0 +1,13 @@
+com/qa/toolsqa/tests/DeleteAccountTest.class
+com/qa/toolsqa/testdata/LoginTestData$InvalidCredential.class
+com/qa/toolsqa/testdata/RegistrationTestData$ValidUser.class
+com/qa/toolsqa/testdata/LoginTestData$CaseSensitiveCredential.class
+com/qa/toolsqa/tests/LoginTest.class
+com/qa/toolsqa/tests/RegisterTest.class
+com/qa/toolsqa/testdata/LoginTestData$ValidCredential.class
+com/qa/toolsqa/testdata/LoginTestData$ErrorMessages.class
+com/qa/toolsqa/testdata/DeleteAccountTestData.class
+com/qa/toolsqa/testdata/LoginTestData.class
+com/qa/toolsqa/tests/NavigationTest.class
+com/qa/toolsqa/tests/BaseTest.class
+com/qa/toolsqa/testdata/RegistrationTestData.class

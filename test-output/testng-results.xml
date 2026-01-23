@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="28" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-23T00:42:53 CET" name="CrossBrowserSuite" finished-at="2026-01-23T00:44:20 CET" duration-ms="87255">
+    <groups>
+    </groups>
+    <test started-at="2026-01-23T00:42:53 CET" name="Chrome Tests" finished-at="2026-01-23T00:43:46 CET" duration-ms="52781">
+      <class name="com.qa.toolsqa.tests.DeleteAccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@40005471]" started-at="2026-01-23T00:43:41 CET" name="setup" finished-at="2026-01-23T00:43:42 CET" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@40005471]" started-at="2026-01-23T00:43:42 CET" name="testSetup" finished-at="2026-01-23T00:43:43 CET" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="confermationMessage()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@40005471]" started-at="2026-01-23T00:43:43 CET" name="confermationMessage" description="Verify a confirmation message displayed to the user when delete an account" finished-at="2026-01-23T00:43:46 CET" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confermationMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@40005471]" started-at="2026-01-23T00:43:46 CET" name="tearDown" finished-at="2026-01-23T00:43:46 CET" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.DeleteAccountTest -->
+      <class name="com.qa.toolsqa.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:04 CET" name="setup" finished-at="2026-01-23T00:43:05 CET" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:05 CET" name="testSetup" finished-at="2026-01-23T00:43:06 CET" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailWithEmptyPassword()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:06 CET" name="testLoginFailWithEmptyPassword" description="Verify login fails when password is empty" finished-at="2026-01-23T00:43:06 CET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:06 CET" name="tearDown" finished-at="2026-01-23T00:43:06 CET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:06 CET" name="setup" finished-at="2026-01-23T00:43:06 CET" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:06 CET" name="testSetup" finished-at="2026-01-23T00:43:08 CET" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithEmptyUsername()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:08 CET" name="testLoginFailsWithEmptyUsername" description="Verify login fails when first name is empty" finished-at="2026-01-23T00:43:08 CET" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:08 CET" name="tearDown" finished-at="2026-01-23T00:43:08 CET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:08 CET" name="setup" finished-at="2026-01-23T00:43:08 CET" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:08 CET" name="testSetup" finished-at="2026-01-23T00:43:10 CET" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithInvalidCredential()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:10 CET" name="testLoginFailsWithInvalidCredential" description="Verify login fails with invalid credential" finished-at="2026-01-23T00:43:11 CET" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithInvalidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:11 CET" name="tearDown" finished-at="2026-01-23T00:43:11 CET" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:11 CET" name="setup" finished-at="2026-01-23T00:43:12 CET" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:12 CET" name="testSetup" finished-at="2026-01-23T00:43:13 CET" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithInvalidPassword()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:13 CET" name="testLoginFailsWithInvalidPassword" description="Verify login fails with invalid password" finished-at="2026-01-23T00:43:13 CET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:13 CET" name="tearDown" finished-at="2026-01-23T00:43:13 CET" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:13 CET" name="setup" finished-at="2026-01-23T00:43:13 CET" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:13 CET" name="testSetup" finished-at="2026-01-23T00:43:15 CET" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:15 CET" name="testLoginWithValidCredentials" description="Verify successful login with valid credentials" finished-at="2026-01-23T00:43:16 CET" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:16 CET" name="tearDown" finished-at="2026-01-23T00:43:16 CET" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:16 CET" name="setup" finished-at="2026-01-23T00:43:17 CET" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:17 CET" name="testSetup" finished-at="2026-01-23T00:43:18 CET" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testPasswordIsCaseSensitive()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:18 CET" name="testPasswordIsCaseSensitive" description="Verfy password field is case-sensetive" finished-at="2026-01-23T00:43:28 CET" duration-ms="10191" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.96, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: /var/folders/7p/hrnbqj5130z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63929}, goog:processID: 32533, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63929/devtoo..., se:cdpVersion: 144.0.7559.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53528c697ce7669c1e962796f6d3c2cc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.96, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: /var/folders/7p/hrnbqj5130z...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63929}, goog:processID: 32533, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63929/devtoo..., se:cdpVersion: 144.0.7559.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53528c697ce7669c1e962796f6d3c2cc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.toolsqa.pages.LoginPage.getErrorMessage(LoginPage.java:42)
+at com.qa.toolsqa.tests.LoginTest.testPasswordIsCaseSensitive(LoginTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordIsCaseSensitive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@3c9754d8]" started-at="2026-01-23T00:43:28 CET" name="tearDown" finished-at="2026-01-23T00:43:28 CET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.LoginTest -->
+      <class name="com.qa.toolsqa.tests.RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:53 CET" name="setup" finished-at="2026-01-23T00:42:54 CET" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:54 CET" name="testSetup" finished-at="2026-01-23T00:42:55 CET" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutFirstName()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:55 CET" name="testRegistrationFailsWithoutFirstName" description="Verify registration fails when first name is empty" finished-at="2026-01-23T00:42:55 CET" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:55 CET" name="tearDown" finished-at="2026-01-23T00:42:55 CET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:55 CET" name="setup" finished-at="2026-01-23T00:42:56 CET" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:56 CET" name="testSetup" finished-at="2026-01-23T00:42:57 CET" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutLastName()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:57 CET" name="testRegistrationFailsWithoutLastName" description="Verify registration fails when last name is empty" finished-at="2026-01-23T00:42:57 CET" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:57 CET" name="tearDown" finished-at="2026-01-23T00:42:57 CET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:57 CET" name="setup" finished-at="2026-01-23T00:42:58 CET" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:58 CET" name="testSetup" finished-at="2026-01-23T00:42:59 CET" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutPassword()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:59 CET" name="testRegistrationFailsWithoutPassword" description="Verify registration fails when password is empty" finished-at="2026-01-23T00:42:59 CET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:59 CET" name="tearDown" finished-at="2026-01-23T00:42:59 CET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:42:59 CET" name="setup" finished-at="2026-01-23T00:43:00 CET" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:00 CET" name="testSetup" finished-at="2026-01-23T00:43:02 CET" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutRecaptcha()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:02 CET" name="testRegistrationFailsWithoutRecaptcha" description="Verify registration fails when reCaptcha is not completed" finished-at="2026-01-23T00:43:02 CET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutRecaptcha -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:02 CET" name="tearDown" finished-at="2026-01-23T00:43:02 CET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:02 CET" name="setup" finished-at="2026-01-23T00:43:03 CET" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:03 CET" name="testSetup" finished-at="2026-01-23T00:43:04 CET" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutUsername()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:04 CET" name="testRegistrationFailsWithoutUsername" description="Verify registration fails when username is empty" finished-at="2026-01-23T00:43:04 CET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@3590fc5b]" started-at="2026-01-23T00:43:04 CET" name="tearDown" finished-at="2026-01-23T00:43:04 CET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.RegisterTest -->
+      <class name="com.qa.toolsqa.tests.NavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:28 CET" name="setup" finished-at="2026-01-23T00:43:29 CET" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:29 CET" name="testSetup" finished-at="2026-01-23T00:43:31 CET" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="logoutFromBookStorePage()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:31 CET" name="logoutFromBookStorePage" finished-at="2026-01-23T00:43:34 CET" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromBookStorePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:34 CET" name="tearDown" finished-at="2026-01-23T00:43:34 CET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:34 CET" name="setup" finished-at="2026-01-23T00:43:34 CET" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:34 CET" name="testSetup" finished-at="2026-01-23T00:43:35 CET" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testUserCanLogoutFromPRofilePage()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:35 CET" name="testUserCanLogoutFromPRofilePage" finished-at="2026-01-23T00:43:37 CET" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanLogoutFromPRofilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:37 CET" name="tearDown" finished-at="2026-01-23T00:43:37 CET" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:37 CET" name="setup" finished-at="2026-01-23T00:43:38 CET" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:38 CET" name="testSetup" finished-at="2026-01-23T00:43:39 CET" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testUserCanNavigateToBookStoreFromProfile()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:39 CET" name="testUserCanNavigateToBookStoreFromProfile" finished-at="2026-01-23T00:43:41 CET" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanNavigateToBookStoreFromProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@3d285d7e]" started-at="2026-01-23T00:43:41 CET" name="tearDown" finished-at="2026-01-23T00:43:41 CET" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.NavigationTest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-01-23T00:42:53 CET" name="Firefox Tests" finished-at="2026-01-23T00:44:20 CET" duration-ms="87255">
+      <class name="com.qa.toolsqa.tests.DeleteAccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@609cd4d8]" started-at="2026-01-23T00:44:15 CET" name="setup" finished-at="2026-01-23T00:44:16 CET" duration-ms="828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@609cd4d8]" started-at="2026-01-23T00:44:16 CET" name="testSetup" finished-at="2026-01-23T00:44:18 CET" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="confermationMessage()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@609cd4d8]" started-at="2026-01-23T00:44:18 CET" name="confermationMessage" description="Verify a confirmation message displayed to the user when delete an account" finished-at="2026-01-23T00:44:20 CET" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confermationMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.DeleteAccountTest@609cd4d8]" started-at="2026-01-23T00:44:20 CET" name="tearDown" finished-at="2026-01-23T00:44:20 CET" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.DeleteAccountTest -->
+      <class name="com.qa.toolsqa.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:14 CET" name="setup" finished-at="2026-01-23T00:43:14 CET" duration-ms="895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:14 CET" name="testSetup" finished-at="2026-01-23T00:43:16 CET" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailWithEmptyPassword()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:16 CET" name="testLoginFailWithEmptyPassword" description="Verify login fails when password is empty" finished-at="2026-01-23T00:43:16 CET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:16 CET" name="tearDown" finished-at="2026-01-23T00:43:16 CET" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:16 CET" name="setup" finished-at="2026-01-23T00:43:17 CET" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:17 CET" name="testSetup" finished-at="2026-01-23T00:43:19 CET" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithEmptyUsername()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:19 CET" name="testLoginFailsWithEmptyUsername" description="Verify login fails when first name is empty" finished-at="2026-01-23T00:43:19 CET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:19 CET" name="tearDown" finished-at="2026-01-23T00:43:19 CET" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:19 CET" name="setup" finished-at="2026-01-23T00:43:20 CET" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:20 CET" name="testSetup" finished-at="2026-01-23T00:43:22 CET" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithInvalidCredential()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:22 CET" name="testLoginFailsWithInvalidCredential" description="Verify login fails with invalid credential" finished-at="2026-01-23T00:43:23 CET" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithInvalidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:23 CET" name="tearDown" finished-at="2026-01-23T00:43:24 CET" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:24 CET" name="setup" finished-at="2026-01-23T00:43:24 CET" duration-ms="840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:24 CET" name="testSetup" finished-at="2026-01-23T00:43:26 CET" duration-ms="1870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginFailsWithInvalidPassword()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:26 CET" name="testLoginFailsWithInvalidPassword" description="Verify login fails with invalid password" finished-at="2026-01-23T00:43:26 CET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:26 CET" name="tearDown" finished-at="2026-01-23T00:43:27 CET" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:27 CET" name="setup" finished-at="2026-01-23T00:43:28 CET" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:28 CET" name="testSetup" finished-at="2026-01-23T00:43:43 CET" duration-ms="15935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:43 CET" name="testLoginWithValidCredentials" description="Verify successful login with valid credentials" finished-at="2026-01-23T00:43:46 CET" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:46 CET" name="tearDown" finished-at="2026-01-23T00:43:46 CET" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:46 CET" name="setup" finished-at="2026-01-23T00:43:47 CET" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:47 CET" name="testSetup" finished-at="2026-01-23T00:43:48 CET" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testPasswordIsCaseSensitive()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:48 CET" name="testPasswordIsCaseSensitive" description="Verfy password field is case-sensetive" finished-at="2026-01-23T00:43:59 CET" duration-ms="10226" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.1, moz:accessibilityChecks: false, moz:buildID: 20260116091309, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 25.0.0, moz:processID: 32702, moz:profile: /var/folders/7p/hrnbqj5130z..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: f5032290-5b39-4d43-8ed1-142974683829]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.1, moz:accessibilityChecks: false, moz:buildID: 20260116091309, moz:geckodriverVersion: 0.36.0, moz:headless: true, moz:platformVersion: 25.0.0, moz:processID: 32702, moz:profile: /var/folders/7p/hrnbqj5130z..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: f5032290-5b39-4d43-8ed1-142974683829
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.toolsqa.pages.LoginPage.getErrorMessage(LoginPage.java:42)
+at com.qa.toolsqa.tests.LoginTest.testPasswordIsCaseSensitive(LoginTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordIsCaseSensitive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.LoginTest@66d18979]" started-at="2026-01-23T00:43:59 CET" name="tearDown" finished-at="2026-01-23T00:43:59 CET" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.LoginTest -->
+      <class name="com.qa.toolsqa.tests.RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:53 CET" name="setup" finished-at="2026-01-23T00:42:54 CET" duration-ms="1128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:54 CET" name="testSetup" finished-at="2026-01-23T00:42:56 CET" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutFirstName()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:56 CET" name="testRegistrationFailsWithoutFirstName" description="Verify registration fails when first name is empty" finished-at="2026-01-23T00:42:56 CET" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:56 CET" name="tearDown" finished-at="2026-01-23T00:42:58 CET" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:58 CET" name="setup" finished-at="2026-01-23T00:42:59 CET" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:42:59 CET" name="testSetup" finished-at="2026-01-23T00:43:03 CET" duration-ms="4760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutLastName()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:03 CET" name="testRegistrationFailsWithoutLastName" description="Verify registration fails when last name is empty" finished-at="2026-01-23T00:43:04 CET" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:04 CET" name="tearDown" finished-at="2026-01-23T00:43:04 CET" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:04 CET" name="setup" finished-at="2026-01-23T00:43:05 CET" duration-ms="930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:05 CET" name="testSetup" finished-at="2026-01-23T00:43:07 CET" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutPassword()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:07 CET" name="testRegistrationFailsWithoutPassword" description="Verify registration fails when password is empty" finished-at="2026-01-23T00:43:07 CET" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:07 CET" name="tearDown" finished-at="2026-01-23T00:43:07 CET" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:07 CET" name="setup" finished-at="2026-01-23T00:43:08 CET" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:08 CET" name="testSetup" finished-at="2026-01-23T00:43:10 CET" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutRecaptcha()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:10 CET" name="testRegistrationFailsWithoutRecaptcha" description="Verify registration fails when reCaptcha is not completed" finished-at="2026-01-23T00:43:10 CET" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutRecaptcha -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:10 CET" name="tearDown" finished-at="2026-01-23T00:43:10 CET" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:10 CET" name="setup" finished-at="2026-01-23T00:43:11 CET" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:11 CET" name="testSetup" finished-at="2026-01-23T00:43:13 CET" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testRegistrationFailsWithoutUsername()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:13 CET" name="testRegistrationFailsWithoutUsername" description="Verify registration fails when username is empty" finished-at="2026-01-23T00:43:13 CET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithoutUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.RegisterTest@6913c1fb]" started-at="2026-01-23T00:43:13 CET" name="tearDown" finished-at="2026-01-23T00:43:14 CET" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.RegisterTest -->
+      <class name="com.qa.toolsqa.tests.NavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:43:59 CET" name="setup" finished-at="2026-01-23T00:44:00 CET" duration-ms="846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:00 CET" name="testSetup" finished-at="2026-01-23T00:44:01 CET" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="logoutFromBookStorePage()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:01 CET" name="logoutFromBookStorePage" finished-at="2026-01-23T00:44:04 CET" duration-ms="3122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromBookStorePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:04 CET" name="tearDown" finished-at="2026-01-23T00:44:05 CET" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:05 CET" name="setup" finished-at="2026-01-23T00:44:06 CET" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:06 CET" name="testSetup" finished-at="2026-01-23T00:44:08 CET" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testUserCanLogoutFromPRofilePage()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:08 CET" name="testUserCanLogoutFromPRofilePage" finished-at="2026-01-23T00:44:10 CET" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanLogoutFromPRofilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:10 CET" name="tearDown" finished-at="2026-01-23T00:44:10 CET" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:10 CET" name="setup" finished-at="2026-01-23T00:44:11 CET" duration-ms="831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:11 CET" name="testSetup" finished-at="2026-01-23T00:44:13 CET" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testUserCanNavigateToBookStoreFromProfile()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:13 CET" name="testUserCanNavigateToBookStoreFromProfile" finished-at="2026-01-23T00:44:15 CET" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanNavigateToBookStoreFromProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.toolsqa.tests.NavigationTest@bccb269]" started-at="2026-01-23T00:44:15 CET" name="tearDown" finished-at="2026-01-23T00:44:15 CET" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.toolsqa.tests.NavigationTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
