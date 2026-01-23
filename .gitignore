@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# TestNG
+test-output/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
