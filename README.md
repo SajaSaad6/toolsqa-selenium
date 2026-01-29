@@ -19,8 +19,7 @@ This project automates functional and end-to-end test cases for the ToolsQA Demo
 - Cross-browser testing
 
 ## Project Structure
-- src/test/java → Test cases & Page Objects
-- src/test/resources → Test data & config
+- src/test/java → Test cases, Page Objects, Test data
 - testng.xml → Test suite configuration
 - pom.xml → Maven dependencies
 

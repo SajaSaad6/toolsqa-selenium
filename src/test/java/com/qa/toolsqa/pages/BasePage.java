@@ -22,6 +22,7 @@ public class BasePage {
 	protected WebElement waitForElement(By locator) {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
+	
 	protected void jsClick(By locator) {
 		WebElement element = waitForElement(locator);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
