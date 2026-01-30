@@ -31,7 +31,7 @@ public class DeleteAccountTest extends BaseTest{
 		
 		navigationPage.clickDeleteAccountButton();
 		
-		Assert.assertEquals(navigationPage.getAlertText(), "Do you want to delete your account?");
+		Assert.assertEquals(navigationPage.getDeleteAccountModalText(), "Do you want to delete your account?");
 	}
 	
 	

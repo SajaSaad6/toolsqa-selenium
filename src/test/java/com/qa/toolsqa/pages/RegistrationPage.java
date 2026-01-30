@@ -3,7 +3,6 @@ package com.qa.toolsqa.pages;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class RegistrationPage extends BasePage{
@@ -14,8 +13,6 @@ public class RegistrationPage extends BasePage{
 	private By usernameField = By.id("userName");
 	private By passwordField = By.id("password");
 	private By registerButton = By.id("register");
-	private By recaptchaFrame = By.xpath("//iframe[contains(@src, 'recaptcha')]");
-	private By recaptchaCheckbox = By.xpath("//*[@id=\"recaptcha-anchor\"]/div[3]");
 	private By successMessage = By.xpath("//div[contains(text(),'User Register Successfully.')]");
     private By errorMessage = By.id("name"); //It should be the error message for everthing
     private By backToLoginButton = By.id("gotologin");
@@ -25,29 +22,23 @@ public class RegistrationPage extends BasePage{
     }
     
     public void enterFirstName(String firstname) {
-    	driver.findElement(firstnameField).sendKeys(firstname);
+    	enterText(firstnameField, firstname);
     }
     
     public void enterLastName(String lastname) { 
-    	driver.findElement(lastnameField).sendKeys(lastname);
+    	enterText(lastnameField, lastname);
     }
     
     public void enterUserName(String username) {
-    	driver.findElement(usernameField).sendKeys(username);
+    	enterText(usernameField, username);
     }
     
     public void enterPassword(String password) {
-    	driver.findElement(passwordField).sendKeys(password);
+    	enterText(passwordField, password);
     }
     
     public void clickRegisterButton() {
     	jsClick(registerButton);
-    }
-    
-    public void solveRecaptcha() {
-    	wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(recaptchaFrame));
-    	driver.findElement(recaptchaCheckbox).click();
-    	driver.switchTo().defaultContent();
     }
     
     public void fillRegistrationForm(String firstname, String lastname, String username, String password) {
@@ -57,30 +48,17 @@ public class RegistrationPage extends BasePage{
     	enterPassword(password);
     }
     
-    public void registerWithRecaptcha(String firstname, String lastname, String username, String password) {
-    	fillRegistrationForm(firstname, lastname, username, password);
-    	solveRecaptcha();
-    	clickRegisterButton();
-    }
-    
-    public void registerWithoutRecaptcha(String firstname, String lastname, String username, String password) {
+    public void testRegister(String firstname, String lastname, String username, String password) {
     	fillRegistrationForm(firstname, lastname, username, password);
     	clickRegisterButton();
     }
-    
+        
     public boolean isSuccessMessageDisplayed() {
-        return driver.findElement(successMessage).isDisplayed();
+        return waitForElement(successMessage).isDisplayed();
     }
     
-    public String getRecaptchaErrorMessage() {
-        WebElement error = wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage));
-        return error.getText();
-    }
-    
-    public boolean isFieldInvalid(By fieldLocator) {
-        WebElement field = driver.findElement(fieldLocator);
-        String classes = field.getAttribute("class");
-        return classes.contains("is-invalid");
+    public String getErrorMessage() {
+        return getText(errorMessage);
     }
     
     public boolean isFirstNameInvalid() {
@@ -116,10 +94,5 @@ public class RegistrationPage extends BasePage{
     public void acceptAlert() {
     	Alert alert = alert();
     	alert.accept();
-    }
-    
-    public String getUserExistsErrorMessage() {
-    	WebElement error = wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage));
-    	return error.getText();
     }
 }

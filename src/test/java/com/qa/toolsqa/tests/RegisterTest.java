@@ -19,35 +19,6 @@ public class RegisterTest extends BaseTest{
 		registrationPage = new RegistrationPage(driver);
 		
 	}
-	/*
-	 * Can't be automated
-	@Test(description = "Verify successful registeration with valid credentials and reCaptcha")
-	public void testSuccessfulRegistration() {
-		
-		registrationPage.registerWithRecaptcha(
-				RegistrationTestData.ValidUser.FIRST_NAME,
-				RegistrationTestData.ValidUser.LAST_NAME,
-				RegistrationTestData.ValidUser.USERNAME,
-				RegistrationTestData.ValidUser.PASSWORD);
-		
-		
-		Assert.assertTrue(registrationPage.isSuccessMessageDisplayed(),
-				"Success message should be displayed after successful registeration");
-		}
-
-	@Test(description = "Verify registeration fails with already existing user")
-	public void testRegistrationWithExistingUser() {
-		
-		registrationPage.registerWithRecaptcha(
-				RegistrationTestData.ValidUser.FIRST_NAME,
-				RegistrationTestData.ValidUser.LAST_NAME,
-				RegistrationTestData.ValidUser.USERNAME,
-				RegistrationTestData.ValidUser.PASSWORD);
-			
-		Assert.assertEquals(registrationPage.getUserExistsErrorMessage(), "User exists!",
-				"User exists message should be displayed after registration with an existing user data");
-		}
-	 */
 	
 	@Test(description = "Verify registration fails when first name is empty")
 	public void testRegistrationFailsWithoutFirstName() {
@@ -111,7 +82,7 @@ public class RegisterTest extends BaseTest{
 	@Test(description = "Verify registration fails when reCaptcha is not completed")
 	public void testRegistrationFailsWithoutRecaptcha() {
 		
-		registrationPage.registerWithoutRecaptcha(
+		registrationPage.testRegister(
 	            RegistrationTestData.ValidUser.FIRST_NAME,
 	            RegistrationTestData.ValidUser.LAST_NAME,
 	            RegistrationTestData.ValidUser.USERNAME,
@@ -119,7 +90,7 @@ public class RegisterTest extends BaseTest{
 	        );
 	        
 	        Assert.assertEquals(
-	        		registrationPage.getRecaptchaErrorMessage(), 
+	        		registrationPage.getErrorMessage(), 
 	        		"Please verify reCaptcha to register!", 
 	        		"Expected reCaptcha error message should be displayed");
 	    }
@@ -129,7 +100,5 @@ public class RegisterTest extends BaseTest{
 	public void tearDown() {
 		super.tearDown();
 	}
-	
-	//AfterTestMethod
 
 }

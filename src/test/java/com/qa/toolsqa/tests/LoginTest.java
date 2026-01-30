@@ -79,28 +79,6 @@ public class LoginTest extends BaseTest{
 	    Assert.assertEquals(actualErrorMessage, LoginTestData.ErrorMessages.INVALID_CREDENTIALS,
 	    		"Should display invalid credentials error when username case doesn't match");	
 	}
-	/*
-	 * Can't be automated
-	@Test (description = "Verify user can login after a succesful registeratio")
-	public void testLoginAfterRegisteration() {
-		loginPage.clickNewUesrButton();
-		
-		registrationPage.registerWithRecaptcha(RegistrationTestData.ValidUser.FIRST_NAME,
-				RegistrationTestData.ValidUser.LAST_NAME,
-				RegistrationTestData.ValidUser.USERNAME,
-				RegistrationTestData.ValidUser.PASSWORD);
-		
-		//"User Register Successfully Alert 
-		//Click OK
-		registrationPage.acceptAlert();
-		
-		//Still in Register page 
-		//click Back to Login button
-		registrationPage.clickBackToLoginButton();
-		
-		//Won't be registered because of recaptcha
-	}
-	*/
 
 	
 	@Override

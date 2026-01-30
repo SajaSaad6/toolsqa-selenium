@@ -2,8 +2,6 @@ package com.qa.toolsqa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class NavigationPage extends BasePage{
 	
@@ -30,17 +28,21 @@ public class NavigationPage extends BasePage{
 		jsClick(deleteAccountButton);
 	}
 	
-	public void acceptDeletingAccount() {
+	public void confirmDeleteAccount() {
+		waitForElement(deletingModal);
 		jsClick(acceptDeleteButton);
 	}
 	
-	public void cancelDeletingAccount() {
+	public void cancelDeleteAccount() {
+		waitForElement(deletingModal);
 		jsClick(cancelDeleteButton);
 	}
 	
-	public String getAlertText() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(deletingModal));
-		WebElement modal = driver.findElement(deletingModal);
-		return modal.getText();
+	public String getDeleteAccountModalText() {
+		return waitForElement(deletingModal).getText();
+	}
+	
+	public boolean isDeleteAccountModalDisplayed() {
+	    return waitForElement(deletingModal).isDisplayed();
 	}
 }

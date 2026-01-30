@@ -11,4 +11,3 @@ public class DeleteAccountTestData {
 			"Do you want to delete your account?";
 }
 
-//One for Chrome and another one for Firefox
